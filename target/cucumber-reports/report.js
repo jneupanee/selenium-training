@@ -53,49 +53,49 @@ formatter.match({
   "location": "VerifyMobileListPage.i_am_on_live_guru()"
 });
 formatter.result({
-  "duration": 5626202973,
+  "duration": 6408210786,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyMobileListPage.i_click_Mobile_menu()"
 });
 formatter.result({
-  "duration": 677740610,
+  "duration": 845052850,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyMobileListPage.title_of_the_page()"
 });
 formatter.result({
-  "duration": 6702646,
+  "duration": 19801812,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyMobileListPage.i_click_sortby()"
 });
 formatter.result({
-  "duration": 539989183,
+  "duration": 695428546,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyMobileListPage.i_chose_Name()"
 });
 formatter.result({
-  "duration": 62474,
+  "duration": 64706,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyMobileListPage.the_product_should_be_sorted_by_Name()"
 });
 formatter.result({
-  "duration": 305828089,
+  "duration": 270882849,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyMobileListPage.close_Browser()"
 });
 formatter.result({
-  "duration": 326934284,
+  "duration": 337196206,
   "status": "passed"
 });
 formatter.uri("verifyTheCost.feature");
@@ -153,49 +153,49 @@ formatter.match({
   "location": "VerifyTheCost.i_am_on_live_Guru_Page()"
 });
 formatter.result({
-  "duration": 4170716665,
+  "duration": 4522963926,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyTheCost.i_click_Mobile_Menu()"
 });
 formatter.result({
-  "duration": 576657834,
+  "duration": 652490555,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyTheCost.i_read_the_list_of_all_mobile_and_read_the_cost_of_Sony_Xperia_Mobile()"
 });
 formatter.result({
-  "duration": 52505995,
+  "duration": 67410235,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyTheCost.i_click_on_Sony_Xperia_Mobile()"
 });
 formatter.result({
-  "duration": 886897532,
+  "duration": 882578743,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyTheCost.i_read_the_Sony_Xperia_Mobile_from_detail_Page()"
 });
 formatter.result({
-  "duration": 100933284,
+  "duration": 55746649,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyTheCost.i_compare_the_value_of_both_Page()"
 });
 formatter.result({
-  "duration": 151724,
+  "duration": 47302,
   "status": "passed"
 });
 formatter.match({
   "location": "VerifyTheCost.close_Browser()"
 });
 formatter.result({
-  "duration": 301930113,
+  "duration": 175244745,
   "status": "passed"
 });
 });
