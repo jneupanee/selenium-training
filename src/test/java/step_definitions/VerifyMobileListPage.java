@@ -13,7 +13,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageobjects.Guru99_Homepage;
-import webdriverProvider.WebDriverProvider;
+import seleniumWebdriver.WebDriverProvider;
 
 
 public class VerifyMobileListPage {

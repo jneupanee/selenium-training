@@ -11,7 +11,7 @@ import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import pageobjects.Guru99_Homepage;
 import pageobjects.MobilePage;
-import webdriverProvider.WebDriverProvider;
+import seleniumWebdriver.WebDriverProvider;
 
 public class VerifyTheCost {
 	
