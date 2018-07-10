@@ -15,7 +15,8 @@ dryRun = false,
 plugin = { "pretty", "json:target/cucumber-reports/Cucumber.json",
 		"junit:target/cucumber-reports/Cucumber.xml",
 		"html:target/cucumber-reports"},
-glue = "step_definitions" )
+glue = "step_definitions" ,
+tags ="@regression")
 
 
 public class RunTest {

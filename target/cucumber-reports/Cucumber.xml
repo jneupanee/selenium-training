@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="13.915802">
-<testcase classname="Verify item in Mobile List" name="Page can be sorted by 'Name'" time="7.440336">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="24.476986">
+<testcase classname="Adding Item To Cart" name="Verify that you cannot add more product in the cart than the product in store" time="7.868082">
+<system-out><![CDATA[Given I am on Guru Page.....................................................passed
+When I click Mobile Menu....................................................passed
+Then In the list I click 'Add to cart' for sony xperia......................passed
+Then I change quantity value to 'Hundred'...................................passed
+Then I verify the error message.............................................passed
+Then I click on Empty Cart..................................................passed
+Then I click verify cart is empty...........................................passed
+Then Close the browser3.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify item in Mobile List" name="Page can be sorted by 'Name'" time="8.672205">
 <system-out><![CDATA[Given I am on live.guru.....................................................passed
 When I click 'Mobile' menu..................................................passed
 Then Title of the page......................................................passed
@@ -10,9 +21,9 @@ Then The product should be sorted by Name...................................pass
 Then close Browser1.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the Cost of the Product" name="Verify the cost of product in the list page and details page are the same" time="6.475466">
+<testcase classname="Verify the Cost of the Product" name="Verify the cost of product in the list page and details page are the same" time="7.936699">
 <system-out><![CDATA[Given I am on live Guru Page................................................passed
-When I click Mobile Menu....................................................passed
+When I click Mobile Menu verify cost........................................passed
 Then I read the list of all mobile and read the cost of Sony Xperia Mobile..passed
 Then I click on Sony Xperia Mobile..........................................passed
 Then I read the Sony Xperia Mobile from detail Page.........................passed

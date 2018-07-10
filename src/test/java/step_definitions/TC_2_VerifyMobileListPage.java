@@ -16,7 +16,7 @@ import pageobjects.Guru99_Homepage;
 import seleniumWebdriver.WebDriverProvider;
 
 
-public class VerifyMobileListPage {
+public class TC_2_VerifyMobileListPage {
 
 	private WebDriver driver;
 	private Guru99_Homepage gp;
@@ -39,7 +39,7 @@ public class VerifyMobileListPage {
 	@When("^I click 'Mobile' menu$")
 	public void i_click_Mobile_menu()   {
 		gp = PageFactory.initElements(driver, pageobjects.Guru99_Homepage.class);
-		gp.getMobileMenu().click();
+		gp.getMobileMenuButton().click();
 		
 		
 		
