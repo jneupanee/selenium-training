@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="14.93312">
-<testcase classname="Verify item in Mobile List" name="Page can be sorted by 'Name'" time="8.576638">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="13.915802">
+<testcase classname="Verify item in Mobile List" name="Page can be sorted by 'Name'" time="7.440336">
 <system-out><![CDATA[Given I am on live.guru.....................................................passed
 When I click 'Mobile' menu..................................................passed
 Then Title of the page......................................................passed
@@ -10,7 +10,7 @@ Then The product should be sorted by Name...................................pass
 Then close Browser1.........................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the Cost of the Product" name="Verify the cost of product in the list page and details page are the same" time="6.356482">
+<testcase classname="Verify the Cost of the Product" name="Verify the cost of product in the list page and details page are the same" time="6.475466">
 <system-out><![CDATA[Given I am on live Guru Page................................................passed
 When I click Mobile Menu....................................................passed
 Then I read the list of all mobile and read the cost of Sony Xperia Mobile..passed
