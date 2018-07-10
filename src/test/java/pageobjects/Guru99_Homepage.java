@@ -7,8 +7,6 @@ import org.openqa.selenium.support.How;
 
 //http://live.guru99.com
 public class Guru99_Homepage {
-	@FindBy(how = How.XPATH, using = "/html/body/div[1]/div/header/div/div[3]/nav/ol/li[1]/a")
-	private WebElement mobileMenu;
 	
 	
 	@FindBy(how = How.XPATH, using = "/html/body/div[1]/div/div[2]/div/div[2]/div[1]/div[3]/div[1]/div[1]/div/select")
@@ -24,7 +22,18 @@ public class Guru99_Homepage {
 	@FindBy(how = How.XPATH, using = "/html/body/div[1]/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[3]/div/h2/a")
 	private WebElement thirdItem;
 	
-		
+	
+	@FindBy(how = How.CSS, using = "#nav > ol > li.level0.nav-1.first > a")
+	private WebElement mobileMenuButton;
+	
+	
+	
+	
+	public WebElement getMobileMenuButton() {
+		return mobileMenuButton;
+	}
+
+
 	public WebElement getFirstItem() {
 		return firstItem;
 	}
@@ -40,9 +49,6 @@ public class Guru99_Homepage {
 	}
 
 		
-	public WebElement getMobileMenu() {
-		return mobileMenu;
-	}
 
 
 	public WebElement getSortBy() {

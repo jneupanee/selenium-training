@@ -1,4 +1,5 @@
 Feature: Verify item in Mobile List 
+@regression
 Scenario: Page can be sorted by 'Name'
 	    Given I am on live.guru
 	    When I click 'Mobile' menu

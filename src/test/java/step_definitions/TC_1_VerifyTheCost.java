@@ -2,6 +2,7 @@ package step_definitions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -13,7 +14,7 @@ import pageobjects.Guru99_Homepage;
 import pageobjects.MobilePage;
 import seleniumWebdriver.WebDriverProvider;
 
-public class VerifyTheCost {
+public class TC_1_VerifyTheCost {
 	
 	private WebDriver driver;
 	private Guru99_Homepage gp;
@@ -24,15 +25,20 @@ public class VerifyTheCost {
 	public void i_am_on_live_Guru_Page()   {
 		driver = WebDriverProvider.getChromeDriver();
 	    driver.navigate().to("http://live.guru99.com/");
+	    
 	    driver.manage().window().maximize();
+	    
    	    
-		driver.manage().timeouts().pageLoadTimeout(5,TimeUnit.SECONDS);
+		
 	}
 
-	@When("^I click Mobile Menu$")
+	@When("^I click Mobile Menu verify cost$")
 	public void i_click_Mobile_Menu()   {
+		
 		gp = PageFactory.initElements(driver, pageobjects.Guru99_Homepage.class);
-	    gp.getMobileMenu().click();
+
+		gp.getMobileMenuButton().click();
+	    
 	}
 
 	@Then("^I read the list of all mobile and read the cost of Sony Xperia Mobile$")
