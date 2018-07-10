@@ -1,0 +1,210 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Page can be sorted by \u0027Name\u0027",
+        "description": "",
+        "id": "verify-item-in-mobile-list;page-can-be-sorted-by-\u0027name\u0027",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5626202973,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on live.guru",
+            "match": {
+              "location": "VerifyMobileListPage.i_am_on_live_guru()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 677740610,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click \u0027Mobile\u0027 menu",
+            "match": {
+              "location": "VerifyMobileListPage.i_click_Mobile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6702646,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of the page",
+            "match": {
+              "location": "VerifyMobileListPage.title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 539989183,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click sortby",
+            "match": {
+              "location": "VerifyMobileListPage.i_click_sortby()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62474,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I chose \u0027Name\u0027",
+            "match": {
+              "location": "VerifyMobileListPage.i_chose_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 305828089,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The product should be sorted by Name",
+            "match": {
+              "location": "VerifyMobileListPage.the_product_should_be_sorted_by_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 326934284,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close Browser1",
+            "match": {
+              "location": "VerifyMobileListPage.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify item in Mobile List",
+    "description": "",
+    "id": "verify-item-in-mobile-list",
+    "keyword": "Feature",
+    "uri": "verifyMobileList.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify the cost of product in the list page and details page are the same",
+        "description": "",
+        "id": "verify-the-cost-of-the-product;verify-the-cost-of-product-in-the-list-page-and-details-page-are-the-same",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4170716665,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on live Guru Page",
+            "match": {
+              "location": "VerifyTheCost.i_am_on_live_Guru_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 576657834,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I click Mobile Menu",
+            "match": {
+              "location": "VerifyTheCost.i_click_Mobile_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52505995,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I read the list of all mobile and read the cost of Sony Xperia Mobile",
+            "match": {
+              "location": "VerifyTheCost.i_read_the_list_of_all_mobile_and_read_the_cost_of_Sony_Xperia_Mobile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 886897532,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on Sony Xperia Mobile",
+            "match": {
+              "location": "VerifyTheCost.i_click_on_Sony_Xperia_Mobile()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100933284,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I read the Sony Xperia Mobile from detail Page",
+            "match": {
+              "location": "VerifyTheCost.i_read_the_Sony_Xperia_Mobile_from_detail_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 151724,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I compare the value of both Page",
+            "match": {
+              "location": "VerifyTheCost.i_compare_the_value_of_both_Page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 301930113,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close Browser",
+            "match": {
+              "location": "VerifyTheCost.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Cost of the Product",
+    "description": "",
+    "id": "verify-the-cost-of-the-product",
+    "keyword": "Feature",
+    "uri": "verifyTheCost.feature"
+  }
+]
