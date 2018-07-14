@@ -23,7 +23,7 @@ public class Guru99_Homepage {
 	private WebElement thirdItem;
 	
 	
-	@FindBy(how = How.CSS, using = "#nav > ol > li.level0.nav-1.first > a")
+	@FindBy(how = How.XPATH, using = "/html/body/div/div/header/div/div[3]/nav/ol/li[1]/a")
 	private WebElement mobileMenuButton;
 	
 	
