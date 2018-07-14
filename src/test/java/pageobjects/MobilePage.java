@@ -43,12 +43,41 @@ public class MobilePage {
 	
 	//////////////////////End TC_03_Elements
 	
+	
+	//******TC_04_Elements
+	
+	
+	
+	
+	
+	@FindBy(how = How.XPATH, using = "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[1]/div/div[3]/ul/li[2]/a")
+	private WebElement xperiaAddToCompareButton;
+	
+	@FindBy(how = How.XPATH, using = "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[2]/div/div[3]/ul/li[2]/a")
+	private WebElement iphoneAddToCompareButton;
+	
+	@FindBy(how = How.XPATH, using = "/html/body/div/div/div[2]/div/div[3]/div[1]/div[2]/div/button")
+	private WebElement compareButton;
+	
+	@FindBy(how = How.XPATH, using = "/html/body/div/div[2]/button")
+	private WebElement closeWindowButton;
+	
+	
+	
+	//******End TC_04 Elements
+	
+	
+	
+	
+	
+	
+	
 	public WebElement getCostofXperiaInDetailPageText() {
 		return costofXperiaInDetailPageText;
 	}
 
 
-
+	
 	public WebElement getXperiaImageLink() {
 		return xperiaImageLink;
 	}
@@ -93,6 +122,30 @@ public class MobilePage {
 
 	public WebElement getEmptyCartMessage() {
 		return emptyCartMessage;
+	}
+
+////TC_04_Getters
+
+	public WebElement getXperiaAddToCompareButton() {
+		return xperiaAddToCompareButton;
+	}
+
+
+
+	public WebElement getIphoneAddToCompareButton() {
+		return iphoneAddToCompareButton;
+	}
+
+
+
+	public WebElement getCompareButton() {
+		return compareButton;
+	}
+
+
+
+	public WebElement getCloseWindowButton() {
+		return closeWindowButton;
 	}
 
 
