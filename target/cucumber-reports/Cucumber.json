@@ -4,128 +4,6 @@
     "elements": [
       {
         "line": 3,
-        "name": "Verify that you cannot add more product in the cart than the product in store",
-        "description": "",
-        "id": "adding-item-to-cart;verify-that-you-cannot-add-more-product-in-the-cart-than-the-product-in-store",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 4918383904,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on Guru Page",
-            "match": {
-              "location": "TC_3_AddingProductInCart.i_am_on_Guru_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 634533533,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I click Mobile Menu",
-            "match": {
-              "location": "TC_3_AddingProductInCart.i_click_Mobile_Menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4967634,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "In the list I click \u0027Add to cart\u0027 for sony xperia",
-            "match": {
-              "location": "TC_3_AddingProductInCart.in_the_list_I_click_Add_to_cart_for_sony_xperia()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1119713188,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I change quantity value to \u0027Hundred\u0027",
-            "match": {
-              "location": "TC_3_AddingProductInCart.i_change_quantity_value_to_Hundred()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 53120479,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I verify the error message",
-            "match": {
-              "location": "TC_3_AddingProductInCart.i_verify_the_error_message()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 381674198,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "I click on Empty Cart",
-            "match": {
-              "location": "TC_3_AddingProductInCart.i_click_on_Empty_Cart()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 49210454,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "I click verify cart is empty",
-            "match": {
-              "location": "TC_3_AddingProductInCart.i_click_verify_cart_is_empty()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 706478541,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Close the browser3",
-            "match": {
-              "location": "TC_3_AddingProductInCart.close_the_browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 2,
-            "name": "@regression"
-          }
-        ]
-      }
-    ],
-    "name": "Adding Item To Cart",
-    "description": "",
-    "id": "adding-item-to-cart",
-    "keyword": "Feature",
-    "uri": "addingItemToCart.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
         "name": "Page can be sorted by \u0027Name\u0027",
         "description": "",
         "id": "verify-item-in-mobile-list;page-can-be-sorted-by-\u0027name\u0027",
@@ -134,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6040464883,
+              "duration": 38420416634,
               "status": "passed"
             },
             "line": 4,
@@ -146,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1838133326,
+              "duration": 1932225241,
               "status": "passed"
             },
             "line": 5,
@@ -158,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 16620956,
+              "duration": 26457578,
               "status": "passed"
             },
             "line": 6,
@@ -170,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 448593560,
+              "duration": 1775781960,
               "status": "passed"
             },
             "line": 7,
@@ -182,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 49534,
+              "duration": 33022,
               "status": "passed"
             },
             "line": 8,
@@ -194,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 141636463,
+              "duration": 190975266,
               "status": "passed"
             },
             "line": 9,
@@ -206,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 186706627,
+              "duration": 169990022,
               "status": "passed"
             },
             "line": 10,
@@ -236,6 +114,220 @@
     "elements": [
       {
         "line": 3,
+        "name": "Verify that you cannot add more product in the cart than the product in store",
+        "description": "",
+        "id": "adding-item-to-cart;verify-that-you-cannot-add-more-product-in-the-cart-than-the-product-in-store",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6521472992,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on Guru Page",
+            "match": {
+              "location": "TC_3_AddingProductInCart.i_am_on_Guru_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1432636235,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click Mobile Menu",
+            "match": {
+              "location": "TC_3_AddingProductInCart.i_click_Mobile_Menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12286091,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "In the list I click \u0027Add to cart\u0027 for sony xperia",
+            "match": {
+              "location": "TC_3_AddingProductInCart.in_the_list_I_click_Add_to_cart_for_sony_xperia()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2687992100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I change quantity value to \u0027Hundred\u0027",
+            "match": {
+              "location": "TC_3_AddingProductInCart.i_change_quantity_value_to_Hundred()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92453595,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify the error message",
+            "match": {
+              "location": "TC_3_AddingProductInCart.i_verify_the_error_message()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 650388146,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Empty Cart",
+            "match": {
+              "location": "TC_3_AddingProductInCart.i_click_on_Empty_Cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 98220900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click verify cart is empty",
+            "match": {
+              "location": "TC_3_AddingProductInCart.i_click_verify_cart_is_empty()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 776354496,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the browser3",
+            "match": {
+              "location": "TC_3_AddingProductInCart.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Adding Item To Cart",
+    "description": "",
+    "id": "adding-item-to-cart",
+    "keyword": "Feature",
+    "uri": "addingItemToCart.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Verify that you are able to compare two products",
+        "description": "",
+        "id": "compare-two-products;verify-that-you-are-able-to-compare-two-products",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6262606497,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I am on guru homepage",
+            "match": {
+              "location": "TC_04_CompareTwoProducts.i_am_on_guru_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1338597569,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "i click mobile menu",
+            "match": {
+              "location": "TC_04_CompareTwoProducts.i_click_mobile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3147448267,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click \u0027Add to compare\u0027 on mobile product list",
+            "match": {
+              "location": "TC_04_CompareTwoProducts.i_click_Add_to_compare_on_mobile_product_list()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 317812244,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "i click compare button to compare",
+            "match": {
+              "location": "TC_04_CompareTwoProducts.i_click_compare_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26229992,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the pop-up window and check the product are reflected",
+            "match": {
+              "location": "TC_04_CompareTwoProducts.i_verify_the_pop_up_window_and_check_the_product_are_reflected()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3483053298,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close the pop up windows",
+            "match": {
+              "location": "TC_04_CompareTwoProducts.close_the_pop_up_windows()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Compare Two Products",
+    "description": "",
+    "id": "compare-two-products",
+    "keyword": "Feature",
+    "uri": "compareTwoProducts.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
         "name": "Verify the cost of product in the list page and details page are the same",
         "description": "",
         "id": "verify-the-cost-of-the-product;verify-the-cost-of-product-in-the-list-page-and-details-page-are-the-same",
@@ -244,7 +336,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4161988499,
+              "duration": 4724378690,
               "status": "passed"
             },
             "line": 4,
@@ -256,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 1537276441,
+              "duration": 1077545353,
               "status": "passed"
             },
             "line": 5,
@@ -268,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 65029948,
+              "duration": 115670523,
               "status": "passed"
             },
             "line": 6,
@@ -280,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 1888595951,
+              "duration": 1403177194,
               "status": "passed"
             },
             "line": 7,
@@ -292,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 48820878,
+              "duration": 97775098,
               "status": "passed"
             },
             "line": 8,
@@ -304,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 44179,
+              "duration": 75416,
               "status": "passed"
             },
             "line": 9,
@@ -316,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 234943366,
+              "duration": 263106741,
               "status": "passed"
             },
             "line": 10,

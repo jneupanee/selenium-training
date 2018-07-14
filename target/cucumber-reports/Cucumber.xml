@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="24.476986">
-<testcase classname="Adding Item To Cart" name="Verify that you cannot add more product in the cart than the product in store" time="7.868082">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="77.045162">
+<testcase classname="Verify item in Mobile List" name="Page can be sorted by 'Name'" time="42.51588">
+<system-out><![CDATA[Given I am on live.guru.....................................................passed
+When I click 'Mobile' menu..................................................passed
+Then Title of the page......................................................passed
+Then I click sortby.........................................................passed
+Then I chose 'Name'.........................................................passed
+Then The product should be sorted by Name...................................passed
+Then close Browser1.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Adding Item To Cart" name="Verify that you cannot add more product in the cart than the product in store" time="12.271805">
 <system-out><![CDATA[Given I am on Guru Page.....................................................passed
 When I click Mobile Menu....................................................passed
 Then In the list I click 'Add to cart' for sony xperia......................passed
@@ -11,17 +21,16 @@ Then I click verify cart is empty...........................................pass
 Then Close the browser3.....................................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify item in Mobile List" name="Page can be sorted by 'Name'" time="8.672205">
-<system-out><![CDATA[Given I am on live.guru.....................................................passed
-When I click 'Mobile' menu..................................................passed
-Then Title of the page......................................................passed
-Then I click sortby.........................................................passed
-Then I chose 'Name'.........................................................passed
-Then The product should be sorted by Name...................................passed
-Then close Browser1.........................................................passed
+<testcase classname="Compare Two Products" name="Verify that you are able to compare two products" time="14.575748">
+<system-out><![CDATA[Given I am on guru homepage.................................................passed
+When i click mobile menu....................................................passed
+Then I click 'Add to compare' on mobile product list........................passed
+Then i click compare button to compare......................................passed
+Then I verify the pop-up window and check the product are reflected.........passed
+Then Close the pop up windows...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the Cost of the Product" name="Verify the cost of product in the list page and details page are the same" time="7.936699">
+<testcase classname="Verify the Cost of the Product" name="Verify the cost of product in the list page and details page are the same" time="7.681729">
 <system-out><![CDATA[Given I am on live Guru Page................................................passed
 When I click Mobile Menu verify cost........................................passed
 Then I read the list of all mobile and read the cost of Sony Xperia Mobile..passed

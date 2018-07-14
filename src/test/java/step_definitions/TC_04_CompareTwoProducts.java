@@ -49,6 +49,7 @@ public class TC_04_CompareTwoProducts {
 	public void i_click_Add_to_compare_on_mobile_product_list() {
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 		mp = PageFactory.initElements(driver, pageobjects.MobilePage.class);
+		
 		mp.getXperiaAddToCompareButton().click();
 		mp.getIphoneAddToCompareButton().click();
 		

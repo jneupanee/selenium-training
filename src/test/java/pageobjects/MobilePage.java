@@ -50,7 +50,7 @@ public class MobilePage {
 	
 	
 	
-	@FindBy(how = How.XPATH, using = "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[1]/div/div[3]/ul/li[2]/a")
+	@FindBy(how = How.XPATH, using = "/html/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[1]/div/div[3]/ul/li[2]/a")
 	private WebElement xperiaAddToCompareButton;
 	
 	@FindBy(how = How.XPATH, using = "//*[@id=\"top\"]/body/div/div/div[2]/div/div[2]/div[1]/div[3]/ul/li[2]/div/div[3]/ul/li[2]/a")
