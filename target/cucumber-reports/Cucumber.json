@@ -4,116 +4,6 @@
     "elements": [
       {
         "line": 3,
-        "name": "Page can be sorted by \u0027Name\u0027",
-        "description": "",
-        "id": "verify-item-in-mobile-list;page-can-be-sorted-by-\u0027name\u0027",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 38420416634,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I am on live.guru",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.i_am_on_live_guru()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1932225241,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I click \u0027Mobile\u0027 menu",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.i_click_Mobile_menu()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 26457578,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Title of the page",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.title_of_the_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1775781960,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I click sortby",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.i_click_sortby()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 33022,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "I chose \u0027Name\u0027",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.i_chose_Name()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 190975266,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "The product should be sorted by Name",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.the_product_should_be_sorted_by_Name()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 169990022,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "close Browser1",
-            "match": {
-              "location": "TC_2_VerifyMobileListPage.close_Browser()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 2,
-            "name": "@regression"
-          }
-        ]
-      }
-    ],
-    "name": "Verify item in Mobile List",
-    "description": "",
-    "id": "verify-item-in-mobile-list",
-    "keyword": "Feature",
-    "uri": "verifyMobileList.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
         "name": "Verify that you cannot add more product in the cart than the product in store",
         "description": "",
         "id": "adding-item-to-cart;verify-that-you-cannot-add-more-product-in-the-cart-than-the-product-in-store",
@@ -122,7 +12,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6521472992,
+              "duration": 4578207661,
               "status": "passed"
             },
             "line": 4,
@@ -134,7 +24,7 @@
           },
           {
             "result": {
-              "duration": 1432636235,
+              "duration": 431836490,
               "status": "passed"
             },
             "line": 5,
@@ -146,7 +36,7 @@
           },
           {
             "result": {
-              "duration": 12286091,
+              "duration": 4073746,
               "status": "passed"
             },
             "line": 6,
@@ -158,7 +48,7 @@
           },
           {
             "result": {
-              "duration": 2687992100,
+              "duration": 1090529004,
               "status": "passed"
             },
             "line": 7,
@@ -170,7 +60,7 @@
           },
           {
             "result": {
-              "duration": 92453595,
+              "duration": 39165733,
               "status": "passed"
             },
             "line": 8,
@@ -182,7 +72,7 @@
           },
           {
             "result": {
-              "duration": 650388146,
+              "duration": 342356282,
               "status": "passed"
             },
             "line": 9,
@@ -194,7 +84,7 @@
           },
           {
             "result": {
-              "duration": 98220900,
+              "duration": 34623748,
               "status": "passed"
             },
             "line": 10,
@@ -206,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 776354496,
+              "duration": 721132320,
               "status": "passed"
             },
             "line": 11,
@@ -244,7 +134,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6262606497,
+              "duration": 3795794460,
               "status": "passed"
             },
             "line": 3,
@@ -256,7 +146,7 @@
           },
           {
             "result": {
-              "duration": 1338597569,
+              "duration": 376609159,
               "status": "passed"
             },
             "line": 4,
@@ -268,7 +158,7 @@
           },
           {
             "result": {
-              "duration": 3147448267,
+              "duration": 767156432,
               "status": "passed"
             },
             "line": 5,
@@ -280,7 +170,7 @@
           },
           {
             "result": {
-              "duration": 317812244,
+              "duration": 113159066,
               "status": "passed"
             },
             "line": 6,
@@ -292,7 +182,7 @@
           },
           {
             "result": {
-              "duration": 26229992,
+              "duration": 27009769,
               "status": "passed"
             },
             "line": 7,
@@ -304,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 3483053298,
+              "duration": 3216179532,
               "status": "passed"
             },
             "line": 8,
@@ -328,6 +218,116 @@
     "elements": [
       {
         "line": 3,
+        "name": "Page can be sorted by \u0027Name\u0027",
+        "description": "",
+        "id": "verify-item-in-mobile-list;page-can-be-sorted-by-\u0027name\u0027",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3788019662,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on live.guru",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.i_am_on_live_guru()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 413745130,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click \u0027Mobile\u0027 menu",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.i_click_Mobile_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4824241,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Title of the page",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 350375412,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click sortby",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.i_click_sortby()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32091,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I chose \u0027Name\u0027",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.i_chose_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 124923008,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The product should be sorted by Name",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.the_product_should_be_sorted_by_Name()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153810472,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "close Browser1",
+            "match": {
+              "location": "TC_2_VerifyMobileListPage.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Verify item in Mobile List",
+    "description": "",
+    "id": "verify-item-in-mobile-list",
+    "keyword": "Feature",
+    "uri": "verifyMobileList.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
         "name": "Verify the cost of product in the list page and details page are the same",
         "description": "",
         "id": "verify-the-cost-of-the-product;verify-the-cost-of-product-in-the-list-page-and-details-page-are-the-same",
@@ -336,7 +336,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4724378690,
+              "duration": 3769827653,
               "status": "passed"
             },
             "line": 4,
@@ -348,7 +348,7 @@
           },
           {
             "result": {
-              "duration": 1077545353,
+              "duration": 394413157,
               "status": "passed"
             },
             "line": 5,
@@ -360,7 +360,7 @@
           },
           {
             "result": {
-              "duration": 115670523,
+              "duration": 61686760,
               "status": "passed"
             },
             "line": 6,
@@ -372,7 +372,7 @@
           },
           {
             "result": {
-              "duration": 1403177194,
+              "duration": 660119474,
               "status": "passed"
             },
             "line": 7,
@@ -384,7 +384,7 @@
           },
           {
             "result": {
-              "duration": 97775098,
+              "duration": 40351281,
               "status": "passed"
             },
             "line": 8,
@@ -396,7 +396,7 @@
           },
           {
             "result": {
-              "duration": 75416,
+              "duration": 40479,
               "status": "passed"
             },
             "line": 9,
@@ -408,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 263106741,
+              "duration": 217809249,
               "status": "passed"
             },
             "line": 10,

@@ -11,8 +11,8 @@ public class WebDriverProvider {
 	
 	public static WebDriver getChromeDriver(){
 		
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/executableDriver/chromedriver.exe");
-		driver = new ChromeDriver();		
+		System.setProperty("webdriver.chrome.driver", "src/test/java/executableDriver/chromedriver.exe");
+		driver = new ChromeDriver();	
 		return driver;
 		
 	}

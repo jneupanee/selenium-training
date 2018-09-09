@@ -1,22 +1,15 @@
 package step_definitions;
 
 
-import java.util.Iterator;
-import java.util.List;
+
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
-
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import net.bytebuddy.dynamic.scaffold.MethodRegistry.Handler.ForAbstractMethod;
 import pageobjects.Guru99_Homepage;
 import pageobjects.MobilePage;
 import seleniumWebdriver.WebDriverProvider;
@@ -60,8 +53,9 @@ public class TC_04_CompareTwoProducts {
 		
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 		
-	WebDriverWait wait = new WebDriverWait(driver, 5);
-		wait.until(ExpectedConditions.elementToBeClickable(mp.getCompareButton()));
+	
+	
+//		wait.until(ExpectedConditions.elementToBeClickable(mp.getCompareButton()));
 		
 		
 
